@@ -12,16 +12,19 @@ export default function Hero({ scrollToElement }: HeroProps) {
       id="hero"
     >
       {/* Video Background */}
-      <video
+      <motion.video
         autoPlay
         loop
         muted
         playsInline
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.5 }}
         className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
       >
 <source src="https://res.cloudinary.com/dunanazqy/video/upload/v1776536061/12266398_1920_1080_30fps_xffl6e.mp4" type="video/mp4" />
 Your browser does not support the video tag.
-      </video>
+      </motion.video>
 
       {/* Content */}
       <div className="container mx-auto px-4 md:px-6 lg:px-8 relative z-10">
