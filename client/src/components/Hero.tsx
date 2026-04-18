@@ -19,7 +19,7 @@ export default function Hero({ scrollToElement }: HeroProps) {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
       >
-<source src="/12266398_1920_1080_30fps.mp4" type="video/mp4" />
+<source src="https://res.cloudinary.com/dunanazqy/video/upload/v1776536061/12266398_1920_1080_30fps_xffl6e.mp4" type="video/mp4" />
 Your browser does not support the video tag.
       </video>
 
